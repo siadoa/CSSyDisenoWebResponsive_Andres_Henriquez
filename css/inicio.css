@@ -1,37 +1,42 @@
+#contenido{
+  height: 750px;
+}
 #central{
   background-color: #82c3a6;
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-top: 1.2em;
+  height: 55%;
 }
 #central img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  height: 300px;
+  width: 90%;
+  height: 90%;
   box-shadow: 2px 2px #02010a;
 }
 #secundaria{
   background-color: #d5c75f;
   display: flex;
   flex-direction: row;
-  border: 1px;
+  border: 1px solid #d5c75f;
+  height: 45%;
 }
-.img-sec{
-  width: 50%;
+.img-sec div{
+  width: 100%;
   text-align: center;
 }
 .img-sec img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
-  height: 200px;
+  width: 100%;
+  height: 225px;
   box-shadow: 2px 2px #02010a;
+  transition: transform 1s;
 }
 .img-sec a{
   margin: 10px;
-  font-size: 1.8vw;
+  font-size: 1.1em;
   font-weight: bold;
   color: black;
 }

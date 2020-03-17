@@ -1,8 +1,16 @@
+@keyframes slidein {
+  0%{margin-top: 150%;}
+  60%{margin-top: -5%;}
+  100%{margin-top: 0%;}
+}
 body{
   background-color: #02010a;
   font-family: 'Dancing Script', cursive;
-  width: 900px;
-  margin: auto;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: slidein;
+  animation-duration: 1s;
 }
 header{
   background-color: #5b7989;
@@ -31,7 +39,7 @@ header{
   width: 33.3%;
   text-align: center;
   padding: 10px 15px 0px 0px;
-  font-size: 2vw;
+  font-size: 1.3em;
   font-weight: bold;
 }
 .enlaces a{
@@ -49,13 +57,14 @@ footer{
   width: 25%;
   text-align: justify;
   padding-left: 20px;
-  font-size: 1.8vw;
 }
 .pie p{
   margin-block-start: 1.5px;
   margin-block-end: 1.5px;
+  font-size: 1.1em;
 }
 .pie a{
+  font-size: 1.1em;
   color: black;
   text-decoration: underline;
 }
