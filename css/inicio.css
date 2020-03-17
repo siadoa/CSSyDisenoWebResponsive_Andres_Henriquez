@@ -1,1 +1,33 @@
-
+#central{
+  background-color: #82c3a6;
+}
+#central picture img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 300px;
+  padding: 1.5em;
+}
+#secundaria{
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: row;
+}
+.img-sec{
+  width: 50%;
+  text-align: center;
+}
+.img-sec img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 200px;
+}
+.img-sec a{
+  margin: 10px;
+  font-size: 1.8vw;
+  font-weight: bold;
+  color: black;
+}
