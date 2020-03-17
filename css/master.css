@@ -1,5 +1,5 @@
 body{
-  background-color: black;
+  background-color: #02010a;
   font-family: 'Dancing Script', cursive;
   width: 900px;
   margin: auto;
@@ -9,29 +9,33 @@ header{
   border-radius: 10px 10px 0px 0px;
   display: flex;
   flex-direction: row;
+  color: white;
 }
 #titulo{
-  background-color: rgba(255, 0, 0, 0.3);
   width: 75%;
-  color: white;
   text-shadow: 2px 2px 2px #02010a;
 }
 #titulo h1{
   margin: 15px;
 }
 #caja-enlace{
-  background-color: rgba(0, 255, 0, 0.3);
   width: 25%;
   display: flex;
   flex-direction: row;
 }
+#caja-enlace{
+  text-decoration: none;
+}
 .enlaces{
+  margin-top: 15px;
   width: 33.3%;
   text-align: center;
-  padding: 10px;
+  padding: 10px 15px 0px 0px;
+  font-size: 2vw;
+  font-weight: bold;
 }
-#contenido{
-
+.enlaces a{
+  color: white;
 }
 #central{
   background-color: #82c3a6;
@@ -40,7 +44,8 @@ header{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+  width: 80%;
+  height: 300px;
   padding: 1.5em;
 }
 #secundaria{
@@ -49,10 +54,7 @@ header{
   flex-direction: row;
 }
 .img-sec{
-  display: flex;
-  flex-direction: column;
   width: 50%;
-  height: 50%;
   text-align: center;
 }
 .img-sec img{
@@ -60,13 +62,13 @@ header{
   margin-left: auto;
   margin-right: auto;
   width: 90%;
-  height: 90%;
-  padding-top: 1.5em;
+  height: 200px;
 }
 .img-sec a{
   margin: 10px;
-  color: black;
+  font-size: 1.8vw;
   font-weight: bold;
+  color: black;
 }
 footer{
   background-color: #c6d5c5;
@@ -74,9 +76,27 @@ footer{
   display: flex;
   flex-flow: row;
   clear: both;
+  padding-bottom: 15px;
 }
 .pie{
   width: 25%;
   text-align: justify;
-  padding-left: 15px;
+  padding-left: 20px;
+  font-size: 1.8vw;
+}
+.pie p{
+  margin-block-start: 1.5px;
+  margin-block-end: 1.5px;
+}
+.pie a{
+  color: black;
+  text-decoration: underline;
+}
+.logos{
+  display: flex;
+  flex-direction: column;
+}
+.logos img{
+  width: 20px;
+  height: 20px;
 }
