@@ -1,18 +1,21 @@
 #central{
   background-color: #82c3a6;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
 }
-#central picture img{
+#central img{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
   height: 300px;
-  padding: 1.5em;
+  box-shadow: 2px 2px #02010a;
 }
 #secundaria{
   background-color: #d5c75f;
   display: flex;
   flex-direction: row;
+  border: 1px;
 }
 .img-sec{
   width: 50%;
@@ -24,10 +27,19 @@
   margin-right: auto;
   width: 90%;
   height: 200px;
+  box-shadow: 2px 2px #02010a;
 }
 .img-sec a{
   margin: 10px;
   font-size: 1.8vw;
   font-weight: bold;
   color: black;
+}
+#paisajes img:hover{
+  transform: rotate(10deg);
+  box-shadow: 2px 2px #82c3a6;
+}
+#retratos img:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px #82c3a6;
 }

@@ -1,0 +1,33 @@
+#galeria{
+  background-color: #d5c75f;
+  height: 400px;
+}
+.carretes{
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+.carretes div{
+  margin-top: 20px;
+  width: 33.33%;
+}
+.carretes div img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  height: 85%;
+  box-shadow: 2px 2px #02010a;
+}
+.blur{
+  -webkit-filter: blur(10px);
+	filter: blur(10px);
+}
+.gris{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+.sepia{
+  -webkit-filter: sepia(90%); 
+	filter: sepia(90%)
+}
