@@ -22,8 +22,8 @@
     border: 1px solid #d5c75f;
     height: 45%;
   }
-  .img-sec div{
-    width: 100%;
+  .img-sec{
+    width: 50%;
     text-align: center;
   }
   .img-sec img{
